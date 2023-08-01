@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,44 @@
     <link rel="stylesheet" href="../style/main.css">
     <title>Main</title>
 </head>
+
 <body>
+    <div class="side-bar">
+        <!-- PARA MOSTRAR HERRAMIENTAS -->
+        <div class="tools">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="my-server">
+                            <object id="svg-icon" type="image/svg+xml" data="../assets/icons/dns_black_24dp.svg"></object>
+                            <!-- <img src="../assets/icons/dns_black_24dp.svg" alt=""> -->
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="new-server">
+                        <div class="create-server">
+                            <img src="../assets/icons/add_circle_outline_black_24dp.svg" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="material-symbols-outlined explore-server">
+                            <img src="../assets/icons/explore_black_24dp.svg" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- PARA MOSTRAR USUARIO -->
+        <div class="user-card">
+            <div class="avatar">
+                <img src="../assets/images/avatar_prueba.jpg" alt="john">
+            </div>
+            <div class="user-name">John</div>
+        </div>
+    </div>
     <main>
         <div class="content">
             <p>Aún no te has unido a un servidor.</p>
@@ -15,4 +53,5 @@
         </div>
     </main>
 </body>
+
 </html>
