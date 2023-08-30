@@ -1,0 +1,27 @@
+### Consultar usuario por id
+GET http://127.0.0.1:5000/api/users/4
+
+### CREAR USUARIO
+POST http://127.0.0.1:5000/api/users
+content-type: application/json
+
+{
+  "first_name":"Cristiano",
+  "last_name":"Ronaldo",
+  "email":"elbicho@gmail.com",
+  "user_name": "elbicho",
+  "password": "5168186186",
+  "date_of_birth":"1980-06-15"
+}
+
+### ACTUALIZAR USUARIO
+PUT http://127.0.0.1:5000/api/users/4
+content-type: application/json
+
+{
+  "first_name":"Penaldo",
+  "email":"el_llantos@gmail.com"
+}
+
+### ELIMINAR USUARIO POR ID
+DELETE http://127.0.0.1:5000/products/325
