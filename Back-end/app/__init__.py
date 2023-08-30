@@ -4,6 +4,7 @@ from config import Config
 
 # from .routes.auth_bp import auth_bp
 from .routes.user_bp import user_bp
+from .routes.server_bp import server_bp
 
 from .database import DatabaseConnection
 
@@ -18,5 +19,6 @@ def init_app():
 
   # app.register_blueprint(auth_bp, url_prefix = '/auth')
   app.register_blueprint(user_bp, url_prefix = '/api')
+  app.register_blueprint(server_bp, url_prefix = '/api')
   
   return app

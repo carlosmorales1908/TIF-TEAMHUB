@@ -25,3 +25,9 @@ content-type: application/json
 
 ### ELIMINAR USUARIO POR ID
 DELETE http://127.0.0.1:5000/products/325
+
+### Consultar server por id
+GET http://127.0.0.1:5000/api/servers/1
+
+### Consultar todos los servidores
+GET http://127.0.0.1:5000/api/all_servers
